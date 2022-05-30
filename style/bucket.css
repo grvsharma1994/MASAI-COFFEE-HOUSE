@@ -1,0 +1,51 @@
+#card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(255, 37, 37, 0.35) 0px 5px 15px;
+    font-size: 17px;
+    height: auto;
+}
+#bucket>#card>img{
+    height : 310px;
+    width: 100%;
+}
+#bucket{
+    margin-top: 18px;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap : 38px;
+}
+
+#remove_coffee{
+    padding: 20px 35px;
+    border-radius: 7px;
+    background-color: rgb(240, 17, 121);
+    cursor: pointer;
+    border: 0px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+#taken>p:first-child{
+    font-size: 35px;
+}
+#taken{
+    margin-left: 15px;
+}
+
+#total_amount{
+    font-size: 50px;
+}
+
+#confirm_checkout{
+    padding: 20px 35px;
+    border-radius: 7px;
+    background-color: rgb(245, 38, 100);
+    cursor: pointer;
+    border: 0px;
+    color: white;
+    margin-top: 48px;
+    margin-bottom: 22px;;
+} 

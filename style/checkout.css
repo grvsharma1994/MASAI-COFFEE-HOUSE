@@ -1,0 +1,21 @@
+#order-form>input{
+    height: 35px;
+    display: flex;
+    margin-bottom: 10px;
+    border: 1px solid rgb(211, 39, 39);
+    font-size: 22px;
+
+    width: 480px;
+    padding-left: 23px;
+    border-radius: 6px;
+}
+#confirm{
+    padding: 23px 60px;
+    border-radius: 7px;
+    background-color: rgb(219, 31, 31);
+    cursor: pointer;
+    border: 0px;
+    color: white;
+    font-size: 24px;
+    margin-left: 10px;
+} 
